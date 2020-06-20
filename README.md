@@ -6,7 +6,7 @@ At present, property titles are often paper-based, creating opportunities for er
 Some companies and governments around the globe have already implemented blockchain technology for the title management process. Ghanaian blockchain company Bitland has been working on a solution for Ghana, where it is estimated that almost 80% of land is unregistered, according to Forbes. Those that possess unregistered land find it more difficult to prove legal ownership, increasing their exposure to the risk of land seizures or property theft. Bitland is seeking to create secure digital public records of ownership on its blockchain platform, with the aim of protecting land owners from title fraud. Bitland has expanded to operate in 7 African nations, India, and is also working with Native Americans in the US.
 
 ## Project Scope
-This project involves minting a tokens to represent the title to the properties, first by verifying ownership of the property on the blockchain and then using zk-SNARKs to create a verification system for proving ownership of the title to the property without revealing that specific information on the property. After verification, it is placed on a blockchain market place (OpenSea) for others to purchase. 
+This project involves minting a token to represent the title to the properties, first by verifying ownership of the property on the blockchain and then using zk-SNARKs to create a verification system for proving ownership of the title to the property without revealing that specific information on the property. After verification, it is placed on a blockchain market place (OpenSea) for others to purchase. 
 
 # Project Resources
 
@@ -31,7 +31,7 @@ OpenSea is used in this project to list the property tokens for sale. In order t
 ## ZoKrates
 Succinct Zero-Knowledge proofs (zkSnarks) are proving to be one of the most promising frameworks for enhancing privacy and scalability in the blockchain space. Projects like Zcash are using zkSnarks to make payments anonymous (rather than pseudonymous). Other projects such as Coda are experimenting with trustless light clients by using recursive zkSnarks to dramatically reduce the number of state verifications blockchain clients have to perform when coming online. Ethereum founder, [Vitalik Buterin wrote how zkSnarks can be used to scale transaction speed on Ethereum](https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477).
 
-![](./images/Zokrates.svg)
+![](./images/Zokrates.png)
 
 This project leverages ZoKrates, a toolbox for zkSNARKS on Ethereum, to implement zkSnarks for the decentralized real estate marketplace. Traditionally, snarks are written using NP complete arithmetic circuits which can be compared to writing assembly code in traditional machine programming. ZoKrates provides a higher level programming language (something like C in the same metaphor) which compiles down to the underlying constraint system and thus allows programmers to write snarks much closer to how they are used to programming.
 
