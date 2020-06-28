@@ -1,15 +1,23 @@
-var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');
+var SquareVerifier = artifacts.require('SquareVerifier');
+var ERC721MintableComplete = artifacts.require('CustomERC721Token');
+let proof = require("../../zokrates/code/square/proof");
+
+// var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');
 
 contract('TestERC721Mintable', accounts => {
 
     const account_one = accounts[0];
     const account_two = accounts[1];
+    const account_three = accounts[2];
 
     describe('match erc721 spec', function () {
         beforeEach(async function () { 
+            let verifierContract = await SquareVerifier.new({from: account_one});
+            
             this.contract = await ERC721MintableComplete.new({from: account_one});
 
             // TODO: mint multiple tokens
+            await this.contract.mint(account_two, 1, {from: account_one});
         })
 
         it('should return total supply', async function () { 
