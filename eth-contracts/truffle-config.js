@@ -18,14 +18,12 @@
  *
  */
 
-var HDWalletProvider = require("truffle-hdwallet-provider");
-var NonceTrackerSubprovider = require("web3-provider-engine/subproviders/nonce-tracker");
+const HDWalletProvider = require("truffle-hdwallet-provider");
+const infuraKey = "e32ec707141140c0a54fa9891826f838";
 // const infuraKey = "fj4jll3k.....";
 //
-// const fs = require('fs');
-//const mnemonic = fs.readFileSync(".secret").toString().trim();
-var ENDPOINT = "https://rinkeby.infura.io/v3/e32ec707141140c0a54fa9891826f838";
-var MNEMONIC = "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat";
+const fs = require('fs');
+const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
   /**
@@ -51,13 +49,11 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
      },
      rinkeby: {
-       provider: function() {
-         return new HDWalletProvider(MNEMONIC, ENDPOINT)
-       },
+       provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
        network_id: '4',
        gas: 4500000,
-       gasPrice: 10000000000,
-     }
+       gasPrice: 10000000000
+     },
     // Another network with more advanced options...
     // advanced: {
       // port: 8777,             // Custom port

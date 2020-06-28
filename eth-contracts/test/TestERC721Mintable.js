@@ -1,5 +1,5 @@
 var SquareVerifier = artifacts.require('SquareVerifier');
-var ERC721MintableComplete = artifacts.require('CustomERC721Token');
+var ERC721MintableComplete = artifacts.require('IntREstellarToken');
 let proof = require("../../zokrates/code/square/proof");
 
 // var ERC721MintableComplete = artifacts.require('ERC721MintableComplete');
