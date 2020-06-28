@@ -92,7 +92,7 @@ This project leverages ZoKrates, a toolbox for zkSNARKS on Ethereum, to implemen
 # Screenshots of Generating Zero-Knowledge Proofs with Zokrates
 
 ## 1. Compile program
-![](./images/Zokrates1_access_code-zokrates-square.png) 
+![](./images/Zokrates1_access_code-zokrates-square2.png) 
  
 ## 2. Trusted setup
 ![](./images/Zokrates2_compile_squarecode.png) 
