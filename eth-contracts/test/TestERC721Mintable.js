@@ -21,15 +21,22 @@ contract('TestERC721Mintable', accounts => {
         })
 
         it('should return total supply', async function () { 
+            var tokens = await this.contract.totalSupply({from: account_one});
+            AuthenticatorAssertionResponse.equal(tokens, 1, "The total tokens supply here isn't correct");
             
         })
 
         it('should get token balance', async function () { 
+            var tokens = await this.contract.balanceOf(account_two, {from: account_two});
+            assert.equal(tokens, 1, "The number of tokens called here doesn't match the record");
             
         })
 
         // token uri should be complete i.e: https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/1
         it('should return token uri', async function () { 
+            var correctURI = "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/1"
+            var uri = await this.contract.tokenURI(1);
+            assert.equal(correctURI, uri, "URIs do not match");
             
         })
 
