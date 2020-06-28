@@ -106,3 +106,7 @@ This project leverages ZoKrates, a toolbox for zkSNARKS on Ethereum, to implemen
 
 ## 5. Export-Verifier
 ![](./images/Zokrates5_generate_proof.png) 
+
+# Screenshots of Smart Contracts Compiling Successfully
+![](./images/Contracts-Compile-Successfully1.png) 
+![](./images/Contracts-Compile-Successfully2.png) 
