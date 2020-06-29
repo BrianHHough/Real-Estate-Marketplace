@@ -40,7 +40,7 @@ it('a new solution can be added for contract', async function () {
 
     tokenIndex = SolutionAddedEvent.args.index;
 
-    Assert.equal(soltuionAddedEventEmitted, true, "A new solution was added and event was not emitted");
+    assert.equal(solutionAddedEventEmitted, true, "A new solution was added and event was not emitted");
 });
 
 // Test if an ERC721 token can be minted for contract - SolnSquareVerifier

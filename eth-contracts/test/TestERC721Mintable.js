@@ -8,6 +8,8 @@ contract('TestERC721Mintable', accounts => {
 
     const account_one = accounts[0];
     const account_two = accounts[1];
+    const account_three = accounts[2];
+    const account_four = accounts[3];
     // const account_three = accounts[2];
 
     describe('match erc721 spec', function () {
@@ -24,8 +26,8 @@ contract('TestERC721Mintable', accounts => {
         })
 
         it('should return total supply', async function () { 
-            var tokens = await this.contract.totalSupply();
-            assert.equal(tokens, 10, "The total tokens supply here isn't correct");
+            var tokensCount = await this.contract.totalSupply();
+            assert.equal(tokensCount, 10, "The total tokens supply here isn't correct");
             
         })
 
@@ -71,8 +73,8 @@ contract('TestERC721Mintable', accounts => {
 
 
         it('should return contract owner', async function () { 
-            const returnedOwner = await instance.getOwner();
-            assert.equal(returnedOwner, owner, "This contract owner is not the right one!");
+            let returnedOwner = await this.contract.getOwner.call();
+            assert.equal(returnedOwner, account_one, "This contract owner is not the right one!");
         });
 
     });
