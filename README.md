@@ -759,6 +759,8 @@
     Run: `~/zokrates export-verifier`
 
 ## Testing Procedures
+- `cd Real-Estate-Marketplace`
+- `cd eth-contracts`
 - Run Ganache-CLI in terminal window #1:
 `ganache-cli -m "seed phrase"`
 - Run Truffle Tests in terminal window #2 to assess the usability of the Solidity Smart Contracts:
