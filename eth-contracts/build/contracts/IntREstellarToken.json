@@ -28923,7 +28923,8 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-06-28T22:30:46.081Z",
+  "updatedAt": "2020-06-29T00:09:10.931Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {
       "isApprovedForAll(address,address)": {
