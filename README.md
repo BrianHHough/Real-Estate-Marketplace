@@ -819,5 +819,5 @@ This project leverages ZoKrates, a toolbox for zkSNARKS on Ethereum, to implemen
 ![](./images/Contracts-Compile-Successfully2.png) 
 
 # Storefront on OpenSea
-![](./images/OpenSeaImages/store-setup/storefront-setup.png)
+![](./images/OpenSeaImages/store-setup/OpenSea-Storefront.png)
 
