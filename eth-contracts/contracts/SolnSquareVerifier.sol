@@ -33,7 +33,7 @@ contract SolnSquareVerifier is IntREstellarToken {
     // Add in a definition of the Verifier here:
     // SquareVerifier public verifier;
 
-    constructor(address verifierAddress, string memory name, string memory symbol)
+    constructor(address verifierAddress)
         IntREstellarToken()
         public  {
         verifierContract = Verifier(verifierAddress);
