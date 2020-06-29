@@ -72228,10 +72228,29 @@
       "links": {},
       "address": "0x8cD918cee8f93989E334bc0107BB33A9586D05c0",
       "transactionHash": "0x62e75490abc880b0ed166a254ae0e77dbe56c0b81f6f6863a91ded4ff36c1861"
+    },
+    "1593428848422": {
+      "events": {
+        "0x3f3cfdb26fb5f9f1786ab4f1a1f9cd4c0b5e726cbdfc26e495261731aad44e39": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "s",
+              "type": "string"
+            }
+          ],
+          "name": "Verified",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xdDA6327139485221633A1FcD65f4aC932E60A2e1",
+      "transactionHash": "0x8cfc3476fe5ef009ab6768143abf9a15440f764de0a59a2e45961571955e8059"
     }
   },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-06-29T01:40:54.191Z",
+  "updatedAt": "2020-06-29T11:53:27.574Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

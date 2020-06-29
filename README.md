@@ -9,9 +9,22 @@
 - **Web3.js v1.2.1:** used to allow the DApp to interact with a local/remote Ethereum node with an HTTP, HTTPS, or IPC connection.
 
 ## Token Information:
-- Name: IntREstellarToken
+- Name: IntREstellarToken [(view this on Rinkeby)](https://rinkeby.etherscan.io/token/0x373bd46cb1396ff6525526176b5402ebdd3d507e)
 - Token Address: [0xf7759A5A0161F1B2bEF56B7fFDc7F134bAE8afA1](https://rinkeby.etherscan.io/address/0x373BD46cb1396ff6525526176b5402EBdD3D507e)
-- [OpenSea Storefront Link](https://rinkeby.opensea.io/assets/intrestellar-real-estate-marketplace)
+- [OpenSea Storefront Link](https://rinkeby.opensea.io/assets/intrestellar-real-estate-marketplace): https://rinkeby.opensea.io/assets/intrestellar-real-estate-marketplace
+- [Rinkeby Contract Address Link of IntREstellarToken](https://rinkeby.etherscan.io/address/0x373bd46cb1396ff6525526176b5402ebdd3d507e)
+- SquareVerifier Address: [0xe64541383901a77B280BE31105137E4cdf4D3e62](https://rinkeby.etherscan.io/address/0xe64541383901a77B280BE31105137E4cdf4D3e62)
+- SolNSquareVerifier Address: [0xf7759A5A0161F1B2bEF56B7fFDc7F134bAE8afA1](https://rinkeby.etherscan.io/address/0xf7759A5A0161F1B2bEF56B7fFDc7F134bAE8afA1)
+- [Sold token 1](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/1)
+- [Sold token 2](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/2)
+- [Sold token 3](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/3)
+- [Sold token 4](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/4)
+- [Sold token 5](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/5)
+- [Sold token 6](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/6)
+- [Sold token 7](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/7)
+- [Sold token 8](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/8)
+- [Sold token 9](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/9)
+- [Sold token 9](https://rinkeby.opensea.io/assets/0x373bd46cb1396ff6525526176b5402ebdd3d507e/10)
 
 ## Contracts Used for Project:
 [ERC721Mintable.sol](./eth-contracts/contracts/ERC721Mintable.sol)

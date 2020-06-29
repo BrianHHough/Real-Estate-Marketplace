@@ -131,13 +131,13 @@
           }
         ],
         "contractDependencies": [
-          674,
-          139,
-          1082,
-          1115,
-          972,
           185,
           62,
+          1082,
+          1115,
+          139,
+          972,
+          674,
           7440
         ],
         "contractKind": "contract",
@@ -3739,13 +3739,13 @@
           }
         ],
         "contractDependencies": [
-          674,
-          139,
-          1082,
-          1115,
-          972,
           185,
           62,
+          1082,
+          1115,
+          139,
+          972,
+          674,
           7440
         ],
         "contractKind": "contract",
@@ -7282,7 +7282,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-06-28T23:58:33.938Z",
+  "updatedAt": "2020-06-29T12:00:00.957Z",
   "devdoc": {
     "methods": {}
   },
