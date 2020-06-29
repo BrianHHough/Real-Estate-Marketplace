@@ -9,8 +9,9 @@
 - **Web3.js v1.2.1:** used to allow the DApp to interact with a local/remote Ethereum node with an HTTP, HTTPS, or IPC connection.
 
 ## Token Information:
-Name: IntREstellarToken
-Token Address: [0xf7759A5A0161F1B2bEF56B7fFDc7F134bAE8afA1](https://rinkeby.etherscan.io/address/0xf7759a5a0161f1b2bef56b7ffdc7f134bae8afa1)
+- Name: IntREstellarToken
+- Token Address: [0xf7759A5A0161F1B2bEF56B7fFDc7F134bAE8afA1](https://rinkeby.etherscan.io/address/0x373BD46cb1396ff6525526176b5402EBdD3D507e)
+- [OpenSea Storefront Link](https://rinkeby.opensea.io/assets/intrestellar-real-estate-marketplace)
 
 ## Contracts Used for Project:
 [ERC721Mintable.sol](./eth-contracts/contracts/ERC721Mintable.sol)
@@ -171,7 +172,7 @@ Token Address: [0xf7759A5A0161F1B2bEF56B7fFDc7F134bAE8afA1](https://rinkeby.ethe
         > Final cost:          0.0460555 ETH
 
 ## ABI
-    "abi": [
+    [
         {
         "constant": true,
         "inputs": [
@@ -710,7 +711,7 @@ Token Address: [0xf7759A5A0161F1B2bEF56B7fFDc7F134bAE8afA1](https://rinkeby.ethe
         "stateMutability": "nonpayable",
         "type": "function"
         }
-    ],
+    ]
 
 
 
@@ -816,3 +817,7 @@ This project leverages ZoKrates, a toolbox for zkSNARKS on Ethereum, to implemen
 # Screenshots of Smart Contracts Compiling Successfully
 ![](./images/Contracts-Compile-Successfully1.png) 
 ![](./images/Contracts-Compile-Successfully2.png) 
+
+# Storefront on OpenSea
+![](./images/OpenSeaImages/store-setup/storefront-setup.png)
+
