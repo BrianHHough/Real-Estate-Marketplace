@@ -1,5 +1,5 @@
 // REAL ESTATE TOKEN NAME: IntREstellarToken
-const SolnSquareVerifier = artifiacts.require('SolnSquareVerifier');
+const SolnSquareVerifier = artifacts.require('SolnSquareVerifier');
 const verifier = artifacts.require('verifier');
 
 let accounts;
